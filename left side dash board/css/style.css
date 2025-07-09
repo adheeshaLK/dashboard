@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #FEA4A4;
+}
+.main{
+    background-color: white;
+    margin:5% 2% 5% 2%;
+    height: 90vh;
+    display: flex; 
+    border: 1px;
+}
+.main .left{
+    width:20%;
+    background-color:#EF4C5C;
+    height: 90vh;
+}
+.main .right{
+    width: 80%;
+    height: 90vh;
+    background-color: #EEEEEE;
+}
+.main .right .top{
+    
+    display:flex;
+    height: 8vh;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main .right .middle{
+    width: 100%;
+    height: 28vh;
+    
+}
+.main .right .bottom{
+    width: 100%;
+    height:54vh;
+}
+.main .right .middle {
+    display: flex;
+    align-items: center ;
+}
+.main .right .middle .box{
+    width: 19%;
+    height: 20vh;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main .bottom{
+    display: flex;
+}
+.main .right .bottom .leftSide{
+    width: 65%;
+    height: 45vh;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.main .right .bottom .rightSide{
+    width: 30%;
+    height: 45vh;
+    margin-left: 15px;
+    margin-right: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.main .right .bottom .leftSide .bar{
+    display:flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+.main .right .bottom .leftSide .table{
+   
+    margin-top: 10px;
+}
+.main .right .bottom .leftSide .table tr{
+    height: 30px;
+}
+.main .right .bottom .leftSide .bar #left{
+    width: 60%;
+    margin-left: 15%;
+    justify-content: center;
+}
+.tableButton{
+    background-color: #EF4C5C;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    color: white;
+}
+.optionBtn{
+    background-color: #EF4C5C;
+    padding: 3px 7px 3px 7px;
+    border: none;
+    color: white;
+}
+.rightSide table{
+ 
+    width: 100%;
+}
+.rightSide table tr{
+    height: 50px;
+}
+.rightSideTop{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#title{
+    width: 50%;
+    margin-left: 15%;
+    justify-content: center;
+}
+ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+ul li:hover{
+    background-color:white;
+    
+}
+ul li a:hover{
+    color: #EF4C5C;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 120%;
+    margin-left: 10px;
+}
+ul li #logo{
+    margin-left: 15%;
+    color: #EEEEEE;
+}
+.select{
+    width: 100%;
+    height: 60vh;
+    margin-top: 8px;
+}
+h1{
+    
+    margin-top: 5%;
+    margin-left: 30%;
+}
+#alone{
+    margin-left: 24%;
+}
+#topLeft{
+    width: 75%;
+    align-items: center;
+}
+#search{
+    width: 250px;
+    margin-left: 45%;
+    background-color: #EEEEEE;
+    border: none;
+    padding: 7px 30px 7px 1px;
+}
+#topRight{
+    display: flex;
+    align-items: center;
+}
+#topRight i{
+    margin-left: 20px;
+}
+#topRight img{
+    margin-left: 20px;
+}
+.detail{
+    width: 50%;
+    height: 100%;
+}
+.detail h1{
+    margin-top: 33%;
+}
+.detail p{
+    margin-left: 35px;
+}
+.icn{
+    width: 50%;
+    height: 100%; 
+}
+.icn i{
+    color: #EF4C5C;
+    font-size: 350%;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+.box{
+    display: flex;
+}
